@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    max-width: 1440;
+    background-color: #ffdc96;
+}
+
+.container {
+    max-width: 1440;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-list {
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 4px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #A52A2A;
+}
+
+.nav-item {
+    list-style: none;
+}
